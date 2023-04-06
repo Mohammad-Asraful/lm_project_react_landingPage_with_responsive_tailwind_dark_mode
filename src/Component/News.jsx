@@ -12,7 +12,7 @@ const News = () => {
                <div className="news">
                   {/* head part start */}
                   <div className='grid grid-cols-1 justify-between items-center
-                  md:grid-cols-2
+                  md:grid-cols-[repeat(2,_auto)]
                   '>
                      <div>
                         <p className='text-[#09AFF4] text-base font-semibold leading-6 uppercase mb-2'>● Blog ●</p>
